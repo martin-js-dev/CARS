@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=&display=swap');
+
+$accent:#ffc100;
+$primary:#c66b3d;
+$secondary:#c4a35a;
+$base:#383838;
+
+.hero-wrapper{
+    color:#dfdbdb;
+    padding-bottom: 100px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $base;
+}
+h1{
+    font-size: 40px;
+}
+ion-icon{
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size:25px;
+    color:#ffc100;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn-primary{
+    height: 50px;
+    border-radius: 5px;
+    padding: 0rem 2rem ;
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    background-color: $accent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+
+    
+    &:hover{
+      transform: scale(1.1);
+      transition: ease-in-out 0.2s;
+      
+    }
+  }
+  
+  
+  
+  .btn-secondary{
+    white-space: nowrap;
+    background-color: transparent;
+    border:1px solid $accent;
+    padding: 1rem 2rem;
+    color:$accent;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 50px;
+  
+    &:hover{
+      border:2px solid $accent;
+      transform: scale(1.1);
+      transition: ease-in-out 0.2s;
+    }
+    
+  }
+nav{
+    padding: 30px 100px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        margin-top: -20px;
+        height: 90px;
+        width: 120px;
+    }
+}
+
+nav ul li{
+    cursor: pointer;
+    list-style-type: none;
+    margin-right: 50px;
+    font-size: 1.2rem;
+    &:hover{
+        font-weight: bold;
+    }
+}
+
+nav ul {
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    margin:3rem;
+    justify-content: space-around;
+}
+
+.cta{
+    width: 40%;
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+.image img{
+    width: 600px;
+    height: 400px;
+}
