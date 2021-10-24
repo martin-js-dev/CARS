@@ -281,3 +281,73 @@ display: inline-block;
 }
 
 
+//  <!------------BANNER------------------->
+
+.banner {
+  border-radius: 5px;
+  padding:4rem 5rem;
+  color:#f2f2f2;
+  display: flex;
+  background-color: #333;
+  margin: 5rem;
+}
+
+.banner img  {
+  margin-top: -6rem;
+}
+
+.banner-cta{
+  margin-left: 12rem;
+}
+
+
+.newsletter-cta{
+  margin-left: 12rem;
+  margin-top: 3rem; 
+}
+
+.form-control {
+  width:25rem;
+  height: 3.5rem;
+  text-indent: 2rem;
+}
+.btn-info {
+  height: 3.5rem;
+  width: 10rem;
+  padding:1rem 3rem;
+  border:none;
+  background-color: #ffc100;
+  text-transform: uppercase;
+  border-radius: 5px;
+  
+  
+}
+
+.btn-info a{
+  text-decoration: none;
+  margin-left: -1rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.btn-info:hover {
+  cursor: pointer;
+}
+
+.checkbox1 {
+  cursor: pointer;
+  
+}
+
+.u {
+  cursor: pointer;
+}
+
+.checkbox p {
+  font-size: 1rem;
+  
+}
+
+
+.input-group input {
+  border:none;
+}
