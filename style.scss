@@ -396,3 +396,152 @@ display: inline-block;
   margin-top: 5rem;
   border-radius: 5px;
 }
+
+//  <!------------FOOTER------------------->
+
+.footer-social {
+  display: flex;
+  margin-left: 3rem;
+  
+}
+.letter-1 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+}
+
+.letter {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid 
+}
+.input {
+  display: flex;
+}
+
+.input button {
+  outline: hidden;
+  border: none;
+ 
+  color: white;
+  width: 4rem;
+  height: 3.3rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  margin-left: -0.5rem;
+}
+
+.footer-wrap {
+  margin-top: 5rem;
+}
+
+.footer-col img {
+  height: 6rem;
+  width: 7rem;
+  margin-top: -0.5rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.page-footer {
+  display: flex;
+}
+
+.footer-col {
+  width: 25%;
+  margin-right: 5rem;
+  height: 18.5rem;
+  float: left;
+}
+.footer-col p {
+  font-size: 1.5rem;
+}
+.footer-col span {
+  display: flex;
+}
+
+.footer-col ul {
+  margin-top: -1rem;
+  margin-left: -2rem;
+}
+.footer-col ul li {
+  font-size: 1.3rem;
+  list-style-type: none;
+  
+  
+}
+
+.page-footer h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-left: -2rem;
+  
+}
+
+.page-footer h3::after {
+  content: ".";
+  font-size: 0;
+  width: 80%;
+  height: 2px;
+  display: block;
+  margin: 0.5rem 0rem 2.5rem 0rem;
+}
+
+.page-footer li {
+  font-size: 1.3rem;
+  
+  line-height: 1.6;
+}
+.page-footer li:hover {
+  
+  cursor: pointer;
+}
+
+.wrapper1 {
+  padding-top: 1rem;
+  width: 30rem;
+  height: 5rem;
+  display: flex;
+}
+
+.text {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  padding-right: 3.5rem;
+  color: #dbd5c1;
+}
+
+.copy {
+  font-size: 1rem;
+  
+  margin-left: 3rem;
+}
+
+.ending {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+}
+
+.links p {
+  padding-right: 2.2rem;
+  
+}
+
+.links p a {
+  
+  font-size: 1.1rem;
+  
+}
+.ending p a {
+  text-decoration: none;
+}
+
+
