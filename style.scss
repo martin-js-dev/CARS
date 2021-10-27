@@ -352,6 +352,71 @@ display: inline-block;
   border:none;
 }
 
+/*------------------------BLOG-------------*/
+
+
+.blog-wrapper {
+  margin-top: 5rem;
+  color:#f2f2f2;
+}
+
+
+.blog-title{
+  padding: 3rem;
+  padding-bottom: 0rem;
+  text-align: center;
+  h1{
+    color: #ffc100;
+  }
+}
+
+.blog-title span {
+  font-family: 'Great Vibes';
+  font-size: 2.5rem;
+
+}
+.blog {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+
+.article {
+  width: 27rem;
+  height: 51rem;
+  padding:2rem;
+  
+}
+.article img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+
+
+.blog-info p {
+  font-size: 1.2rem;
+}
+
+.button1-secondary{
+  background-color: #ffc100;
+  outline: none;
+  border:none;
+  margin-top: 2rem;
+  padding:7px 35px;
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+}
+
+
+
+
 //  <!------------BOOK APPOINTMENT------------------->
 
 .contact-container{
